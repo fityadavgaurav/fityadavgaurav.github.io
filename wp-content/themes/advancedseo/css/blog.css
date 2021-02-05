@@ -1,0 +1,28 @@
+.subscribe {
+    background: #1943aa;
+    text-align: center;
+    color: #fff;
+	padding: 16px 0;
+}
+.tnp-subscription {
+    margin-bottom: 20px;
+}
+.tnp-field {
+    display: inline-block;
+}
+input.tnp-submit{font-size:16px}
+.blog-list {
+    max-width: 400px;
+    background: #fff;
+    box-shadow: 3px 3px 0px 0px #ddd;
+    margin: 20px;
+}
+.card-image {
+    max-height: 200px;
+}
+.card-title {
+    padding: 20px;
+}
+.card-heading {
+    color: #222;
+}

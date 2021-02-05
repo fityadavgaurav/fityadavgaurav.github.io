@@ -1,0 +1,81 @@
+.intro-s {background: #8dbf42;}
+.home-thumb {
+	text-align:center;
+    width: 75%;
+    margin: 10px auto 0;
+}
+.hero-thumb {margin:0;}
+.hero-thumb img {
+    max-height: 150px;
+	margin-bottom: -16px;
+}
+.subscribe {
+    margin-bottom: 20px;
+	text-align:center;
+}
+.intro-s h2 {
+	color:#fff;
+	font-size: 40px;
+	font-weight:700;
+	margin: 10px;
+}
+.intro-s p {
+	color:#fff;
+	font-size: 20px;
+	font-weight:500;
+	margin: 10px 0;
+}
+.tnp-field {
+    width: 100%;
+}
+input.tnp-email {
+	width: 80%;
+    padding-left: 10px;
+}
+input.tnp-submit {
+	width: 80%;
+    font-size: 1em;
+}
+.recent-projects {background:#1943aa;color:#fff;text-align:center;padding: 20px 0;
+    white-space: nowrap;
+    overflow: auto;
+}
+.projects-name {white-space: nowrap;overflow: auto;}
+.project-name {
+    font-size: 22px;
+    font-weight: 600;
+    display: inline-block;
+    padding: 20px;
+}
+/*--------------------------------------------------------------
+# Responsive
+--------------------------------------------------------------*/
+@media (min-width: 544px) {
+
+}
+@media (min-width: 786px) {
+	input.tnp-submit,input.tnp-email {
+		width: 65%;
+	}
+}
+@media (min-width: 940px) {
+	.subscribe {
+    	width: 60%;
+		float:left;
+		padding-top: 60px;
+	}
+	.home-thumb {
+		width: 40%;
+		float: right;
+		margin: 40px auto 0;
+	}
+	.hero-thumb img {
+		max-height: 400px;
+	}
+	.intro-s p {
+		margin-bottom: 32px;
+	}
+}
+@media (min-width: 1200px) {
+	
+}
